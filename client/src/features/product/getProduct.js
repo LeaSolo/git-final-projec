@@ -22,6 +22,9 @@ const GetProducts = () => {
 
       <span>this is the change number 2 in the visual</span>
       <span>hi lea ist hila from vs!!!!!</span>
+
+       <div >this is lea</div>
+
       <h2>רשימת מוצרים</h2>
       {products?.map((p) => (
         <div key={p._id}>
