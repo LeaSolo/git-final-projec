@@ -17,7 +17,10 @@ const GetProducts = () => {
 
   return (
     <div>
+
       <p>this is the change number 2 in the visual </p>
+
+      <span>this is the change number 2 in the visual</span>
       <h2>רשימת מוצרים</h2>
       {products?.map((p) => (
         <div key={p._id}>
