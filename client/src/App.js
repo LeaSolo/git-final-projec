@@ -15,8 +15,11 @@ console.log("App loaded");
 
 function App() {
   return (
+    
+    // <h1>This </h1>
     <Router>
       <Routes>
+
           <Route path="/" element={<Layout />}>
           <Route path="/home" element={<Home />} />
           <Route path="login" element={<Login />} />
