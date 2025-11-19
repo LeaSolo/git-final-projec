@@ -28,6 +28,7 @@ const GetProducts = () => {
       <h2>רשימת מוצרים</h2>
       {products?.map((p) => (
         <div key={p._id}>
+          <span>hiiii yudit</span>
           <Link to={`/product/${p._id}`}> <label>שם: {p.name}</label><br />
           <h1>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii 😝😝😝😝😝😝😝😝😝😝😝</h1>
           <p>lorem ipsam</p>
