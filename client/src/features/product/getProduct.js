@@ -32,6 +32,7 @@ const GetProducts = () => {
           <Link to={`/product/${p._id}`}> <label>שם: {p.name}</label><br />
           <h1>ex7!!!!!</h1>
           <h1>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii 😝😝😝😝😝😝😝😝😝😝😝</h1>
+          <h2>i am hungry🍰🎂🍰🎂</h2>
           <p>lorem ipsam</p>
             <label>תיאור: {p.description}</label><br />
             <label>קטגוריה: {p.category}</label><br />
