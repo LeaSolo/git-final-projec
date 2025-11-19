@@ -27,6 +27,7 @@ const GetProducts = () => {
         <div key={p._id}>
           <Link to={`/product/${p._id}`}> <label>שם: {p.name}</label><br />
           <h1>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii 😝😝😝😝😝😝😝😝😝😝😝</h1>
+          <p>lorem ipsam</p>
             <label>תיאור: {p.description}</label><br />
             <label>קטגוריה: {p.category}</label><br />
             <label>חומר: {p.material}</label><br />
