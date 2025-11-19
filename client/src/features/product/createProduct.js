@@ -43,6 +43,7 @@ const CreateProduct = () => {
   return (
    
     <form onSubmit={handleSubmit}>
+    <span>This is commit from git</span>
        <h1>This is a change</h1>
       <input
         type="text"
