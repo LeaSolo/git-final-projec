@@ -22,9 +22,13 @@ const GetProducts = () => {
 
       <span>this is the change number 2 in the visual</span>
       <span>hi lea ist hila from vs!!!!!</span>
+
+       <div >this is lea</div>
+
       <h2>רשימת מוצרים</h2>
       {products?.map((p) => (
         <div key={p._id}>
+          <span>hiiii yudit</span>
           <Link to={`/product/${p._id}`}> <label>שם: {p.name}</label><br />
           <h1>ex7!!!!!</h1>
           <h1>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii 😝😝😝😝😝😝😝😝😝😝😝</h1>
